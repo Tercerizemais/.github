@@ -1,35 +1,55 @@
-name: 🚀 Nova Funcionalidade (Feature)
-description: Sugira uma ideia para este projeto
-title: "[FEAT] "
+name: ✨Solicitação de Funcionalidade
+description: Solicite uma nova funcionalidade ou melhoria
 labels: ["enhancement"]
+title: "[FEAT]: "
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por sugerir uma ideia! Por favor, preencha os campos abaixo.
+        Obrigado por dedicar seu tempo para preencher esta solicitação de funcionalidade 🤗  
+        Certifique-se de que não há nenhuma issue aberta/fechada relacionada a este problema 😃
 
   - type: textarea
-    id: problem
+    id: goal
     attributes:
-      label: Qual é a dor ou problema relacionado?
-      description: Uma descrição clara e concisa de qual é o problema.
-      placeholder: "Ex: Eu fico frustrado quando tento clicar no botão e..."
+      label: Objetivo
+      description: Descreva o objetivo principal dessa funcionalidade ou melhoria
     validations:
-      required: true
+      required: false
 
   - type: textarea
-    id: solution
+    id: context
     attributes:
-      label: Descreva a solução que você gostaria
-      description: O que você quer que aconteça?
-      placeholder: "Ex: Gostaria que o botão ficasse azul..."
+      label: Contexto
+      description: Forneça o contexto ou o problema que motiva a solicitação dessa funcionalidade
     validations:
-      required: true
+      required: false
 
-  - type: checkboxes
-    id: checklist
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requisitos
+      description: Liste os requisitos técnicos ou funcionais necessários para implementar esta funcionalidade
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance-criteria
     attributes:
       label: Critérios de Aceite
-      options:
-        - label: O código compila sem erros
-        - label: Testes foram adicionados
+      description: Descreva os critérios que devem ser atendidos para considerar a funcionalidade como concluída
+    validations:
+      required: false
+
+  - type: textarea
+    id: checklist-dod
+    attributes:
+      label: Checklist de DoD (Definition of Done)
+      description: Marque os itens que estão completos para garantir que a tarefa está concluída. Use [x] para marcar.
+      value: |
+        - [ ] A funcionalidade foi feita
+        - [ ] O código foi revisado
+        - [ ] Todos os testes necessários foram realizados
+        - [ ] A documentação foi atualizada
+        - [ ] O MR foi aprovado
