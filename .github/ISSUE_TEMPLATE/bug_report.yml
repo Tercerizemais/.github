@@ -13,7 +13,7 @@ body:
     attributes:
       label: Descrição do Bug
       description: O que aconteceu de errado?
-      placeholder: Ex: Ao clicar no botão salvar, a tela ficou branca...
+      placeholder: "Ex: Ao clicar no botão salvar, a tela ficou branca..."
     validations:
       required: true
 
@@ -34,7 +34,7 @@ body:
     attributes:
       label: Comportamento Esperado
       description: O que deveria ter acontecido?
-      placeholder: Ex: O formulário deveria ter sido salvo e mostrado uma mensagem de sucesso.
+      placeholder: "Ex: O formulário deveria ter sido salvo e mostrado uma mensagem de sucesso."
     validations:
       required: true
 
@@ -43,7 +43,7 @@ body:
     attributes:
       label: Ambiente (Navegador/Sistema)
       description: Qual navegador, versão ou sistema operacional você está usando?
-      placeholder: Ex: Chrome 98, Windows 10
+      placeholder: "Ex: Chrome 98, Windows 10"
     validations:
       required: false
 
