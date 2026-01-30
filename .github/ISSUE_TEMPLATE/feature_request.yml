@@ -42,14 +42,15 @@ body:
     validations:
       required: false
 
-  - type: textarea
+ - type: checkboxes
     id: checklist-dod
     attributes:
       label: Checklist de DoD (Definition of Done)
-      description: Marque os itens que estão completos para garantir que a tarefa está concluída. Use [x] para marcar.
-      value: |
-        - [ ] A funcionalidade foi feita
-        - [ ] O código foi revisado
-        - [ ] Todos os testes necessários foram realizados
-        - [ ] A documentação foi atualizada
-        - [ ] O MR foi aprovado
+      description: Marque os itens que foram concluídos para esta tarefa.
+      options:
+        - label: A funcionalidade foi feita
+        - label: O código foi revisado
+        - label: Todos os testes necessários foram realizados
+        - label: O MR foi aprovado
+    validations:
+      required: true
