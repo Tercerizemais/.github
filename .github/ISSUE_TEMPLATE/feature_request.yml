@@ -1,4 +1,4 @@
-name: ✨Solicitação de Funcionalidade
+name: ✨ Solicitação de Funcionalidade
 description: Solicite uma nova funcionalidade ou melhoria
 labels: ["enhancement"]
 title: "[FEAT]: "
@@ -42,7 +42,7 @@ body:
     validations:
       required: false
 
- - type: checkboxes
+  - type: checkboxes
     id: checklist-dod
     attributes:
       label: Checklist de DoD (Definition of Done)
@@ -51,6 +51,7 @@ body:
         - label: A funcionalidade foi feita
         - label: O código foi revisado
         - label: Todos os testes necessários foram realizados
+        - label: A documentação foi atualizada
         - label: O MR foi aprovado
     validations:
       required: true
