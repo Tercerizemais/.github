@@ -13,7 +13,7 @@ body:
     attributes:
       label: Qual é a dor ou problema relacionado?
       description: Uma descrição clara e concisa de qual é o problema.
-      placeholder: Ex: Eu fico frustrado quando tento clicar no botão e...
+      placeholder: "Ex: Eu fico frustrado quando tento clicar no botão e..."
     validations:
       required: true
 
@@ -22,7 +22,7 @@ body:
     attributes:
       label: Descreva a solução que você gostaria
       description: O que você quer que aconteça?
-      placeholder: Ex: Gostaria que o botão ficasse azul...
+      placeholder: "Ex: Gostaria que o botão ficasse azul..."
     validations:
       required: true
 
